@@ -104,7 +104,7 @@ body {
 }
 
 .white-navbar {
-    background-color: var(--white);
+    background-color: var(--midnight-600);
 }
 
 .navbar-container {
@@ -112,5 +112,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-height: var(--spacing-8xl);
+    height: var(--spacing-8xl);
+}
+
+.navbar-image-container {
+   max-width: auto;
+}
+
+.navbar-image {
+    max-width: 75px;
+    border-radius: 50%;
 }
