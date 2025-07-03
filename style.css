@@ -54,20 +54,22 @@
     --spacing-10xl: 260px;
 
     /*color - background*/
-    --gray-1: #fff;
-    --gray-2: #e0e2e5;
-    --gray-3: #9da1ae;
+    --midnight-200: #e0e2e5;
+    --midnight-100: #ebecef;
+    --midnight-50: #fafafb;
+    --white: #fff;
 
-    --primary-1: #000c2c;
-    --primary-2: #5f677b;
-    --primary-3: #7e8494;
+    --midnight-999: #030817;
+    --midnight-800: #2b334a;
+    --midnight-600: #7e8494;
 
-    --secondary-1: #0466c8;
-    --secondary-2: #0353a4;
-    --secondary-3: #023e7d;
+    --blue-800: #084e9f;
+    --blue-700: #0565c6;
+    --blue-500: #2693ff;
 
-    --tertiary-1: #ffc300;
-    --tertiary-2: #ffd60a;
+    --yellow-400: #ffc600;
+    --yellow-300: #ffd659;
+    --yellow-200: #ffe185;
 }
 
 * {
