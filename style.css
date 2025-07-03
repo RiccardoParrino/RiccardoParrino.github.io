@@ -101,6 +101,7 @@ body {
 .navbar {
     position: sticky;
     top: 0px;
+    margin: 0px 10px;
 }
 
 .white-navbar {
@@ -110,10 +111,20 @@ body {
 .navbar-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: var(--spacing-8xl);
+    max-width: 1000px;
 }
+
+.left-navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-navbar-container {}
 
 .navbar-image-container {
    max-width: auto;
