@@ -1,0 +1,81 @@
+/*---------------------------GLOBAL---------------------------*/
+:root {
+    /*font-family*/
+    --font-family-main: 'roboto';
+
+    /*font-size*/
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.4rem;
+    --h3-font-size: 1.3rem;
+    --p-font-size: 1rem;
+    --heading-1: 3rem;
+    --heading-2: 2.25rem;
+    --heading-3: 1.875rem;
+    --heading-4: 1.5rem;
+    --text-large: 1.25rem;
+    --text-body: 1rem;
+    --text-md: 1rem;
+    --text-small: 0.875rem;
+    --text-eyebrow: 0.875rem;
+
+    /*font-weight*/
+    --h1-font-weight: 800;
+    --h2-font-weight: 700;
+    --h3-font-weight: 600;
+    --font-regular: 400;
+    --p-font-weight: 300;
+    --thin-font-weight: 200;
+
+    /*border radius*/
+    --radius-xxs: 2px;
+    --radius-xs: 4px;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-xl: 32px;
+    --radius-full: 100%;
+    --radius-checkbox: 6px;
+
+    /*spacing*/
+    --spacing-xxs: 2px;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 20px;
+    --spacing-2xl: 24px;
+    --spacing-3xl: 32px;
+    --spacing-4xl: 40px;
+    --spacing-5xl: 48px;
+    --spacing-6xl: 64px;
+    --spacing-7xl: 80px;
+    --spacing-8xl: 120px;
+    --spacing-9xl: 180px;
+    --spacing-10xl: 260px;
+
+    /*color - background*/
+    --gray-1: #fff;
+    --gray-2: #e0e2e5;
+    --gray-3: #9da1ae;
+
+    --primary-1: #000c2c;
+    --primary-2: #5f677b;
+    --primary-3: #7e8494;
+
+    --secondary-1: #0466c8;
+    --secondary-2: #0353a4;
+    --secondary-3: #023e7d;
+
+    --tertiary-1: #ffc300;
+    --tertiary-2: #ffd60a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'eina', sans-serif;
+}
