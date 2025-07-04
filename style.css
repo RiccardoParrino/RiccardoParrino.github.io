@@ -210,8 +210,26 @@ body {
     column-gap: var(--spacing-2xl);
 }
 
+.feature-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px var(--midnight-800) solid;
+    border-radius: var(--radius-md);
+    padding: var(--spacing-2xl) var(--spacing-2xl);
+}
+
+.feature-card-container a {
+    text-decoration: none;
+    font-size: var(--text-body);
+    font-weight: var(--p-font-weight);
+    color: var(--fg-secondary);
+}
+
 .feature-image-container {
     max-width: 100px;
+    padding-bottom: var(--spacing-2xl);
 }
 
 .feature-image {
