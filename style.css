@@ -152,10 +152,28 @@ body {
     font-size: var(--h1-font-size);
     row-gap: var(--spacing-3xl);
     background-color: var(--white);
-    padding: var(--spacing-4xl) 0px;
+    padding: var(--spacing-2xl) 0px;
 }
 
 .hero-image {
     max-width: 150px;
     border-radius: 50%;
+}
+
+.hero-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: var(--spacing-xl);
+}
+
+.hero-button {
+    text-decoration: none;
+    font-size: var(--text-body);
+    font-weight: var(--p-font-weight);
+    color: var(--fg-secondary);
+    border: 1px var(--midnight-800) solid;
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
 }
