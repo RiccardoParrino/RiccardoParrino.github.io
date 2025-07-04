@@ -70,6 +70,9 @@
     --yellow-400: #ffc600;
     --yellow-300: #ffd659;
     --yellow-200: #ffe185;
+
+    --green-spring: #80eb6e;
+    --red-angular: #f44336;
 }
 
 * {
@@ -218,6 +221,16 @@ body {
     border: 1px var(--midnight-800) solid;
     border-radius: var(--radius-md);
     padding: var(--spacing-2xl) var(--spacing-2xl);
+}
+
+.feature-card-container-spring:hover {
+    background-color: var(--green-spring);
+    transition: ease background-color 0.2s;
+}
+
+.feature-card-container-angular:hover {
+    background-color: var(--red-angular);
+    transition: ease background-color 0.2s;
 }
 
 .feature-card-container a {
