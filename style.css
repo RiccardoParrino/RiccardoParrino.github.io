@@ -170,10 +170,16 @@ body {
 
 .hero-button {
     text-decoration: none;
-    font-size: var(--text-body);
+    font-size: 1.15rem;
     font-weight: var(--p-font-weight);
     color: var(--fg-secondary);
     border: 1px var(--midnight-800) solid;
     border-radius: var(--radius-md);
     padding: var(--spacing-md);
+    transition: ease background-color 0.15s;
+}
+
+.hero-button:hover {
+    background-color: var(--midnight-200);
+    transition: ease background-color 0.15s;
 }
