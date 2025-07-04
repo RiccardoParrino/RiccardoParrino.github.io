@@ -203,6 +203,7 @@ body {
     align-items: center;
     padding-top: var(--spacing-3xl);
     row-gap: var(--spacing-4xl);
+    padding-bottom: var(--spacing-3xl);;
 }
 
 .feature-stack-container {
