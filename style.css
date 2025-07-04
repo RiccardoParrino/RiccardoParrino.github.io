@@ -150,4 +150,12 @@ body {
     align-items: center;
     justify-content: center;
     font-size: var(--h1-font-size);
+    row-gap: var(--spacing-3xl);
+    background-color: var(--white);
+    padding: var(--spacing-4xl) 0px;
+}
+
+.hero-image {
+    max-width: 150px;
+    border-radius: 50%;
 }
