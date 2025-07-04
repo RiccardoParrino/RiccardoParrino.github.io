@@ -189,3 +189,31 @@ body {
     background-color: var(--midnight-200);
     transition: ease background-color 0.15s;
 }
+
+/*-----FEATURE-----*/
+.feature{}
+
+.feature-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--spacing-3xl);
+    row-gap: var(--spacing-4xl);
+}
+
+.feature-stack-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: var(--spacing-2xl);
+}
+
+.feature-image-container {
+    max-width: 100px;
+}
+
+.feature-image {
+    width: 100%;
+}
