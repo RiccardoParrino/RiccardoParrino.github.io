@@ -105,7 +105,7 @@ body {
 }
 
 .white-navbar {
-    background-color: var(--midnight-600);
+    background-color: var(--white);
 }
 
 .navbar-container {
@@ -114,7 +114,6 @@ body {
     justify-content: space-between;
     align-items: center;
     height: var(--spacing-8xl);
-    max-width: 1000px;
 }
 
 .left-navbar-container {
@@ -140,4 +139,15 @@ body {
 .navbar-image {
     max-width: 75px;
     border-radius: 50%;
+}
+
+/*-----HERO-----*/
+.hero {}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--h1-font-size);
 }
