@@ -264,3 +264,22 @@ body {
     row-gap: var(--spacing-4xl);
     padding-bottom: var(--spacing-3xl);
 }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----FOOTER-----*/
+.footer{
+    padding-top: 128px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
