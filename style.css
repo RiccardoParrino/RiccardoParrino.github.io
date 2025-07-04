@@ -95,6 +95,12 @@ body {
     color: white;
 }
 
+/*-----HORIZONTAL-RULE-----*/
+.horizontal-rule {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 /*--------SECTION----------*/
 
 /*----NAVBAR----*/
