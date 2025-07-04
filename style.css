@@ -225,12 +225,14 @@ body {
 
 .feature-card-container-spring:hover {
     background-color: var(--green-spring);
-    transition: ease background-color 0.2s;
+    transition: ease background-color 0.2s, ease color 0.2s;
+    color: white;
 }
 
 .feature-card-container-angular:hover {
     background-color: var(--red-angular);
-    transition: ease background-color 0.2s;
+    transition: ease background-color 0.2s, ease color 0.2s;
+    color: white;
 }
 
 .feature-card-container a {
