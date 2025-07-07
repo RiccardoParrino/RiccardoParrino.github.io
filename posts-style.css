@@ -54,3 +54,8 @@
     padding: 12px;
     border-radius: 8px;
 }
+
+.anchor-post:hover {
+    background-color: var(--midnight-200);
+    transition: ease background-color 0.15s;
+}
