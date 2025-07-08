@@ -1,0 +1,33 @@
+.keyword-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.keyword-item {
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: var(--fg-secondary);
+    padding: 2px;
+    transition: ease background-color 0.15s;
+}
+
+.keyword-item:hover {
+    background-color: #e0e2e5;
+    transition: ease background-color 0.15s;
+}
+
+.introduction {
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    background-color: blue;
+}
