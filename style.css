@@ -201,9 +201,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--spacing-3xl);
-    row-gap: var(--spacing-4xl);
-    padding-bottom: var(--spacing-3xl);
+    padding-top: var(--spacing-2xl);
+    padding-bottom: 12px;
 }
 
 .feature-stack-container {
@@ -254,8 +253,13 @@ body {
 
 .feature-image-container-plus {
     max-width: 56px;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.blog-button-container{
+    padding-top: 24px;
+    padding-bottom: 36px;
 }
 
 /*-----CTA-----*/
