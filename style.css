@@ -201,8 +201,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--spacing-2xl);
-    padding-bottom: 12px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    row-gap: 24px;
 }
 
 .feature-stack-container {
@@ -258,8 +259,20 @@ body {
 }
 
 .blog-button-container{
-    padding-top: 24px;
+    padding-top: 36px;
     padding-bottom: 36px;
+}
+
+/*-----BLOG-----*/
+.blog{}
+
+.blog-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--spacing-2xl);
+    padding-bottom: 24px;
 }
 
 /*-----CTA-----*/
@@ -280,7 +293,7 @@ body {
     padding-top: 12px;
     padding-bottom: 24px;
     width: 800px;
-    row-gap: 12px;
+    row-gap: 32px;
 }
 
 /*-----FORM-CONTAINER-----*/
