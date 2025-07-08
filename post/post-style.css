@@ -21,6 +21,11 @@
 }
 
 .introduction {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
 }
 
 .introduction-container {
@@ -28,6 +33,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
-    background-color: blue;
+    max-width: 800px;
+    background-color: white;
+}
+
+.introduction-title-container {
+    text-align: start;
+    width: 100%;
+    padding-bottom: 18px;
+}
+
+.introduction-content-container {
+    padding-top: 48px;
+    text-align: justify;
+    text-justify: auto;
 }
