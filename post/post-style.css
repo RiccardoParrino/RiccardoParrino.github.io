@@ -20,6 +20,22 @@
     transition: ease background-color 0.15s;
 }
 
+/*-----GENERIC-SECTION-----*/
+
+.section-title-container {
+    text-align: start;
+    width: 100%;
+    padding-bottom: 18px;
+}
+
+.section-content-container {
+    padding-top: 48px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+/*-----INTRODUCTION-----*/
+
 .introduction {
     display: flex;
     flex-direction: center;
@@ -37,17 +53,7 @@
     background-color: white;
 }
 
-.section-title-container {
-    text-align: start;
-    width: 100%;
-    padding-bottom: 18px;
-}
-
-.section-content-container {
-    padding-top: 48px;
-    text-align: justify;
-    text-justify: auto;
-}
+/*-----PREREQUISITES-----*/
 
 .prerequisites {
     display: flex;
@@ -58,6 +64,44 @@
 }
 
 .prerequisites-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    background-color: white;
+}
+
+/*-----CONTENT-----*/
+
+.content {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    background-color: white;
+}
+
+/*-----CONCLUSION-----*/
+
+.conclusion {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+.conclusion-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
