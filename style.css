@@ -253,7 +253,12 @@ body {
 }
 
 /*-----CTA-----*/
-.cta {}
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .cta-container {
     display: flex;
@@ -263,6 +268,7 @@ body {
     padding-top: var(--spacing-3xl);
     row-gap: var(--spacing-4xl);
     padding-bottom: var(--spacing-3xl);
+    width: 800px;
 }
 
 .form-container {
@@ -274,6 +280,7 @@ body {
     padding: var(--spacing-md);
     border-radius: var(--radius-md);
     row-gap: var(--spacing-md);
+    width: 80%;
 }
 
 .submit-button {
@@ -281,12 +288,14 @@ body {
     border: 1px var(--midnight-800) solid;
     padding: var(--spacing-md);
     border-radius: var(--radius-md);
+    width: 100%;
 }
 
 .input-text {
     padding: var(--spacing-md);
     border-radius: var(--radius-md);
     border: 1px var(--midnight-800) solid;
+    width: 100%;
 }
 
 .input-textarea {
