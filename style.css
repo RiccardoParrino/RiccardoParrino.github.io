@@ -264,6 +264,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .cta-container {
@@ -271,10 +273,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--spacing-3xl);
-    row-gap: var(--spacing-4xl);
-    padding-bottom: var(--spacing-3xl);
+    padding-top: 12px;
+    padding-bottom: 24px;
     width: 800px;
+    row-gap: 12px;
 }
 
 /*-----FORM-CONTAINER-----*/
@@ -284,10 +286,11 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px var(--midnight-800) solid;
-    padding: var(--spacing-md);
     border-radius: var(--radius-md);
-    row-gap: var(--spacing-md);
-    width: 800px;
+    row-gap: 12px;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 /*-----INPUT-LABEL-----*/
@@ -341,7 +344,6 @@ body {
 }
 
 /*-----SUBMIT-BUTTON-----*/
-
 .submit-button-container {
     width: 100%;
     display: flex;
