@@ -277,6 +277,7 @@ body {
     width: 800px;
 }
 
+/*-----FORM-CONTAINER-----*/
 .form-container {
     display: flex;
     flex-direction: column;
@@ -289,6 +290,14 @@ body {
     max-width: 800px;
 }
 
+/*-----INPUT-LABEL-----*/
+.input-label-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .input-text {
     padding: var(--spacing-md);
     border-radius: var(--radius-md);
@@ -296,15 +305,7 @@ body {
     width: 75%;
 }
 
-.submit-button {
-    background-color: white;
-    border: 1px var(--midnight-800) solid;
-    padding: var(--spacing-md);
-    border-radius: var(--radius-md);
-    width: 100%;
-}
-
-/*-----*/
+/*-----TEXTAREA-----*/
 .input-textarea-container {
     width: 100%;
     display: flex;
@@ -321,6 +322,14 @@ body {
     padding: var(--spacing-md);
 }
 
+/*-----SUBMIT-BUTTON-----*/
+.submit-button {
+    background-color: white;
+    border: 1px var(--midnight-800) solid;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    width: 100%;
+}
 
 /*-----FOOTER-----*/
 .footer{
