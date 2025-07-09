@@ -380,6 +380,18 @@ body {
     width: 75%;
 }
 
+/*-----SIMPLE-CTA-----*/
+.simple-cta {}
+
+.simple-cta-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /*-----FOOTER-----*/
 .footer{
     padding-top: 48px;
