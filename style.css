@@ -383,7 +383,7 @@ body {
 /*-----FOOTER-----*/
 .footer{
     padding-top: 48px;
-    padding-bottom: 12px;
+    padding-bottom: 36px;
     display: flex;
     flex-direction: row;
     justify-content: center;

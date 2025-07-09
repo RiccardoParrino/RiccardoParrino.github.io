@@ -1,4 +1,6 @@
-.posts-content {}
+.posts-content {
+    padding-bottom: 48px;
+}
 
 .posts-container {
     display: flex;
