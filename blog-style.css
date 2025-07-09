@@ -62,6 +62,11 @@
     transition: ease background-color 0.15s;
 }
 
+.iframe-slide {
+    width: 800px;
+    height: 800px;
+}
+
 .conclusion {
     padding-bottom: 48px;
 }
