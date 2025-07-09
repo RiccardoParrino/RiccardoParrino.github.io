@@ -104,3 +104,20 @@
     max-width: 800px;
     background-color: white;
 }
+
+/*-----BIBLIOGRAPHY-----*/
+.bibliography {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bibliography-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    background-color: white; 
+}
