@@ -3,12 +3,19 @@
 
     <head>
         <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="../posts-style.css">
+        <link rel="stylesheet" href="../blog-style.css">
+        <link rel="stylesheet" href="post-style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="img/me.jpg">
         <title>Riccardo Parrino's Blog</title>
+        <link rel="icon" type="image/x-icon" href="../img/me.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </head>
 
     <body>
@@ -16,34 +23,60 @@
             <div class="white-navbar navbar-container">
                 <div class="left-navbar-container">
                     <div class="navbar-image-container">
-                        <img class="navbar-image" src="img/me.jpg" alt="">
+                        <img class="navbar-image" src="../img/me.jpg" alt="">
                     </div>
                     <a class="anchor" href="#">Riccardo Parrino's Blog</a>
                 </div>
                 <div class="right-navbar-container">
-                    <a class="anchor" href="#">Home</a>
-                    <a class="anchor" href="#">About</a>
-                    <a class="anchor" href="#">Blog</a>
-                    <a class="anchor" href="#">Contact</a>
+                    <a class="anchor" href="../index.html">Home</a>
+                    <a class="anchor" href="../about.html">About</a>
+                    <a class="anchor" href="../blog.html">Blog</a>
+                    <a class="anchor" href="../contact.html">Contact</a>
                 </div>
             </div>
         </section>
 
         <section class="hero">
             <div class="hero-container">
-                <h1>Blog Posts</h1>
+                <h1>Forms in Angular</h1>
                 <div class="hero-image-container">
-                    <img class="hero-image" src="img/me.jpg" alt="">
+                    <img class="hero-image" src="../img/angular-img.svg" alt="" style="border-radius: 0%;">
                 </div>
-                <div class="hero-button-container">
-                    <a class="hero-button" href="#">All</a>
-                    <a class="hero-button" href="#">Spring</a>
-                    <a class="hero-button" href="#">Angular</a>
-                    <a class="hero-button" href="#">Frontend Basics</a>
-                    <a class="hero-button" href="#">Java</a>
-                    <a class="hero-button" href="#">Marketing</a>
-                    <a class="hero-button" href="#">Freelancing</a>
-                    <a class="hero-button" href="#">Others</a>
+                <div class="keyword-container">
+                    <a class="keyword-item" href="#">#angular</a>
+                    <a class="keyword-item" href="#">#forms</a>
+                    <a class="keyword-item" href="#">#user</a>
+                    <a class="keyword-item" href="#">#interaction</a>
+                    <a class="keyword-item" href="#">#validation</a>
+                    <a class="keyword-item" href="#">#frontend</a>
+                    <a class="keyword-item" href="#">#development</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="introduction">
+            <div class="introduction-container">
+                <div class="section-title-container">
+                    <h1>Introduction</h1>
+                </div>
+                <div class="section-content-container">
+                    Applications use forms to enable users to log in, to update a profile, to enter sensitive information, and to perform many other data-entry tasks.
+
+                    Angular provides two different approaches to handling user input through forms: reactive and template-driven. Both capture user input events from the view, validate the user input, create a form model and data model to update, and provide a way to track changes.
+
+                    In general, it is recommended to use the reactive driven approach to make forms, but you can evaluate what is the best method for your scenario.
+                </div>
+            </div>
+        </section>
+
+        <section class="prerequisites">
+            <div class="prerequisites-container">
+                <div class="section-title-container">
+                    <h1>Prerequisites</h1>
+                </div>
+                <div class="section-content-container">
+                    For this tutorial are not required particular prerequisites, but you should know somthing about Dependency Injection in general and how to write
+                    some little code in Angular, as in Typescript.
                 </div>
             </div>
         </section>
@@ -55,17 +88,71 @@
                 </div>
 
                 <div class="section-content-container">
-                    You can freely download it!
+                    For this tutorial I made some slide to read. You can download it for free!
 
-                <iframe class="iframe-slide"
-                    src="../slides/forms.pdf"
-                    height="600px"
-                ></iframe>
+                    <iframe class="iframe-slide" src="../slides/forms.pdf">
+                    </iframe>
 
                 </div>
 
             </div>
         </section>
 
+        <section class="conclusion">
+            <div class="conclusion-container">
+                <div class="section-title-container">
+                    <h1>Conclusion</h1>
+                </div>
+                <div class="section-content-container">
+                    At the end of the discussion, we can say that there are three different ways to inject dependencies 
+                    into a class, but the most used one is the Class Injection. By this strategy, we can inject the dependencies 
+                    in a really simple and intuitive way. For doing these, it's sufficient create the dependency (usually the service class), configure the Injector to know about this class,
+                    and finally declare the dependencies on the receiving component, in the constructor for example.
+                </div>
+            </div>
+        </section>
+
+        <section class="bibliography" style="padding-bottom: 32px;">
+            <div class="bibliography-container">
+                <div class="section-title-container">
+                    <h1>Bibliography</h1>
+                </div>
+                <div class="section-content-container">
+                    <ol>
+                        <li>Nathan Murray, Felipe Coury, Ari Lerner, and Carlos Taborda. 2018. Ng-book: The Complete Guide to Angular (5th. ed.). CreateSpace Independent Publishing Platform, North Charleston, SC, USA.</li>
+                        <li>Angular official reference site: https://angular.dev/guide/di</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="simple-cta">
+            <section class="simple-cta-container">
+                <a class="hero-button" href="../contact.html">Contact</a>
+            </section>
+        </section>
+
+        <section class="footer">
+            <div class="footer-container">
+                
+                <div class="copyright-container">
+                    <p>Copyright © 2025 Riccardo Parrino. Tutti i diritti riservati.</p>
+                    <p>Made in Italy</p>
+                </div>
+
+                <div class="social-container">
+                    <div class="logo-container">
+                        <img class="logo-img" src="../img/facebook-icon.svg" alt="">
+                    </div>
+                    <div class="logo-container">
+                        <img class="logo-img" src="../img/linkedIn_icon.svg" alt="">
+                    </div>
+                    <div class="logo-container">
+                        <img class="logo-img" src="../img/x_logo.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
     </body>
-</html>
