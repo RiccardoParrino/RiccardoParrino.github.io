@@ -73,8 +73,10 @@
                     <h1>Prerequisites</h1>
                 </div>
                 <div class="section-content-container">
-                    For this tutorial are not required particular prerequisites, but you should know somthing about Dependency Injection in general and how to write
-                    some little code in Angular, as in Typescript.
+                    For this tutorial you should know about Component, Service and Asynchronous code in Angular. For the last requisite, 
+                    it is not really necessary having a deep understanding on how asynchronous works behind the scene in Javascript, that is historically and obviously more complicated
+                    to understand with the respect to synchronous code, but at the end of the discussion and at the end of the lesson on RxJs, you will have better comprehension 
+                    of what's going on under the hood.  
                 </div>
             </div>
         </section>
@@ -102,10 +104,8 @@
                     <h1>Conclusion</h1>
                 </div>
                 <div class="section-content-container">
-                    At the end of the discussion, we can say that there are three different ways to inject dependencies 
-                    into a class, but the most used one is the Class Injection. By this strategy, we can inject the dependencies 
-                    in a really simple and intuitive way. For doing these, it's sufficient create the dependency (usually the service class), configure the Injector to know about this class,
-                    and finally declare the dependencies on the receiving component, in the constructor for example.
+                    At the end of the discussion we say that almost every application need to communicate with a server over th HTTP protocol.  
+                    Angular solves this problem elegantly, offering a dedicated HTTP library, making the stuff trivial enough to work with.
                 </div>
             </div>
         </section>
