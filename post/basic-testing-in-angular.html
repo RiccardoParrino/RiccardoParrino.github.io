@@ -59,13 +59,16 @@
                     <h1>Introduction</h1>
                 </div>
                 <div class="section-content-container">
-                    When you develop a smaller part of your system, like a module or a class, you may need to use features from other classes. For example, you may need an HTTP service to make backend class.
+                    Testing your Angular application helps you check that your application is working as you expect.
 
-                    Dependency Injection, or DI, is a design pattern and mechanism for creating and delivering some parts of an application to other parts of an application that require them.
+                    Testing can help reveal bugs before they appear and makes it easy to onboard new developer into the application. 
 
-                    Angular supports this design pattern and you can se it in your applications to increase flexibility and modularity.
+                    Testing can be done in two way: write the test before the actual code or write the test after the code. 
 
-                    In Angular, dependencies are typically services,but they also can be values, such as string or functions. An injector for an application ( create automatically during bootstrap) istantiates dependencies when needed, using a configured provider of the service or value.
+                    What's important in general is that the code is broken in individual pieces of code that are small enough to 
+                    write only one functionality and then it can be tested in a simple way.
+                
+                    In this little lesson, you will learn how to put in test different part of the application, like Services, HTTP Requests, Forms and other module of the application.
                 </div>
             </div>
         </section>
@@ -76,8 +79,7 @@
                     <h1>Prerequisites</h1>
                 </div>
                 <div class="section-content-container">
-                    For this tutorial are not required particular prerequisites, but you should know somthing about Dependency Injection in general and how to write
-                    some little code in Angular, as in Typescript.
+                    For this tutorial is necessary to know about Services, Component, Directive, HTTP requests and the general structure of an Angular app. 
                 </div>
             </div>
         </section>
@@ -89,7 +91,7 @@
                 </div>
 
                 <div class="section-content-container">
-                    For this tutorial I've prepared some slide to read.
+                    For this tutorial I've prepared some slide to read. You can download it for free!
 
                     <iframe class="iframe-slide" src="../slides/testing.pdf">
                     </iframe>
@@ -105,10 +107,8 @@
                     <h1>Conclusion</h1>
                 </div>
                 <div class="section-content-container">
-                    At the end of the discussion, we can say that there are three different ways to inject dependencies 
-                    into a class, but the most used one is the Class Injection. By this strategy, we can inject the dependencies 
-                    in a really simple and intuitive way. For doing these, it's sufficient create the dependency (usually the service class), configure the Injector to know about this class,
-                    and finally declare the dependencies on the receiving component, in the constructor for example.
+                    Angular makes easy to test all of the aspects of your application: from controller, to services, forms and HTTP.
+                    Even testing asynchronous code can be done in a simple way, thanks to the framework.
                 </div>
             </div>
         </section>
