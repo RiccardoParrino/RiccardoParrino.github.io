@@ -166,8 +166,12 @@ body {
     padding: var(--spacing-2xl) 0px;
 }
 
-.hero-image {
+.hero-image-container {
     max-width: 150px;
+}
+
+.hero-image {
+    width: 100%;
     border-radius: 50%;
 }
 
