@@ -236,6 +236,7 @@ body {
     border: 1px var(--midnight-800) solid;
     border-radius: var(--radius-md);
     padding: var(--spacing-2xl) var(--spacing-2xl);
+    max-height: 196px;
 }
 
 .feature-card-container-spring:hover {
