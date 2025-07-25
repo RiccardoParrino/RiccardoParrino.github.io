@@ -325,6 +325,10 @@ body {
     row-gap: 32px;
 }
 
+.cta-container h1 {
+    font-weight: 300;
+}
+
 /*-----FORM-CONTAINER-----*/
 .form-container {
     border: 1px var(--midnight-800) solid;
@@ -356,8 +360,8 @@ body {
 }
 
 .contact-description-container {
-    font-size: 1.15rem;
-    font-weight: 400;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 /*-----INPUT-LABEL-----*/
@@ -416,13 +420,13 @@ body {
 
 .submit-button {
     font-size: var(--text-body);
-    font-weight: 200;
     border: 1px solid black;
     padding: 12px;
     border-radius: 8px;
     width: 156px;
     background-color: white;
     transition: ease background-color 0.15s;
+    font-weight: 300;
 }
 
 .submit-button:hover {
