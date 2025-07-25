@@ -110,7 +110,7 @@ body {
 .navbar {
     position: sticky;
     top: 0px;
-    margin: 0px 10px;
+    margin: 0px auto;
     padding-bottom: 1px;
     background-color: #030817;
 }
@@ -125,6 +125,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: var(--spacing-8xl);
+    margin: 0px 12px;
 }
 
 .left-navbar-container {
@@ -133,6 +134,7 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: var(--spacing-md);
+    padding-left: 32px;
 }
 
 .right-navbar-container {
@@ -141,6 +143,7 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: var(--spacing-md);
+    padding-right: 32px;
 }
 
 .navbar-image-container {
