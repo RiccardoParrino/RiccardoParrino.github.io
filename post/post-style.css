@@ -35,10 +35,6 @@
 /*-----INTRODUCTION-----*/
 
 .introduction {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
     padding-top: 64px;
 }
 
@@ -47,35 +43,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
     background-color: white;
+    width: 800px;
+    margin: 0px auto;
 }
 
 /*-----PREREQUISITES-----*/
 
 .prerequisites {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .prerequisites-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: white;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.section-title-container {
+    width: 100%;
+}
+
+.section-content-container{
+    width: 100%;
 }
 
 /*-----CONTENT-----*/
 
 .content {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .content-container {
@@ -83,17 +81,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
     background-color: white;
+    width: 800px;
+    margin: 0px auto;
 }
 
 /*-----CONCLUSION-----*/
 
 .conclusion {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .conclusion-container {
@@ -101,16 +96,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
     background-color: white;
+    width: 800px;
+    margin: 0px auto;
 }
 
 /*-----BIBLIOGRAPHY-----*/
 .bibliography {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .bibliography-container {
@@ -118,6 +110,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
     background-color: white; 
+    width: 800px;
+    margin: 0px auto;
 }
