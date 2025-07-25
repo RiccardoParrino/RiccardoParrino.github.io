@@ -26,6 +26,11 @@
     text-align: start;
     width: 100%;
     margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.section-title-container h1 {
+    font-weight: 300;
 }
 
 .section-content-container {
@@ -66,6 +71,8 @@
 
 .section-content-container{
     width: 100%;
+    font-weight: 300;
+    line-height: 22px;
 }
 
 /*-----CONTENT-----*/

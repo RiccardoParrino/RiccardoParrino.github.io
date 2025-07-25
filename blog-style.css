@@ -47,6 +47,14 @@
     align-items: flex-start;
 }
 
+.right-left-post h1 {
+    font-weight: 300;
+}
+
+.right-left-post h3 {
+    font-weight: 200;
+}
+
 .anchor-post {
     text-decoration: none;
     font-size: var(--text-body);
