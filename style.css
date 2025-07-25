@@ -334,6 +334,7 @@ body {
 
 .contact-description-container {
     font-size: 1.15rem;
+    font-weight: 400;
 }
 
 /*-----INPUT-LABEL-----*/
@@ -391,13 +392,18 @@ body {
 }
 
 .submit-button {
-    text-decoration: none;
     font-size: var(--text-body);
-    font-weight: var(--p-font-weight);
-    color: var(--fg-secondary);
+    font-weight: 200;
     border: 1px solid black;
     padding: 12px;
     border-radius: 8px;
+    width: 156px;
+    background-color: white;
+}
+
+.submit-button:hover {
+    background-color: var(--midnight-200);
+    transition: ease background-color 0.15s;
 }
 
 /*-----SIMPLE-CTA-----*/
