@@ -91,11 +91,16 @@ body {
     font-size: var(--text-body);
     font-weight: var(--p-font-weight);
     color: var(--fg-secondary);
+    padding: 8px;
+    border: 1px white solid;
+    transition: ease border 0.15s;
+    border-radius: var(--radius-md);
 }
 
 .anchor:hover {
-    text-decoration: none;
-    color: white;
+    border: 1px var(--midnight-800) solid;
+    border-radius: var(--radius-md);
+    transition: ease border 0.15s;
 }
 
 /*-----HORIZONTAL-RULE-----*/
@@ -402,6 +407,7 @@ body {
     border-radius: 8px;
     width: 156px;
     background-color: white;
+    transition: ease background-color 0.15s;
 }
 
 .submit-button:hover {
