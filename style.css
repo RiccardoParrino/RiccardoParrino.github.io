@@ -304,16 +304,36 @@ body {
 
 /*-----FORM-CONTAINER-----*/
 .form-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: 1px var(--midnight-800) solid;
     border-radius: var(--radius-md);
-    row-gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px;
+}
+
+.left-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.contact-img-container {
+    max-width: 75px;
+    border-radius: 50%;
+}
+
+.contact-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact-description-container {
+    font-size: 1.15rem;
 }
 
 /*-----INPUT-LABEL-----*/
@@ -368,20 +388,16 @@ body {
 
 /*-----SUBMIT-BUTTON-----*/
 .submit-button-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 12px;
 }
 
 .submit-button {
-    background-color: white;
-    border: 1px var(--midnight-800) solid;
-    padding: var(--spacing-md);
-    border-radius: var(--radius-md);
-    width: 75%;
+    text-decoration: none;
+    font-size: var(--text-body);
+    font-weight: var(--p-font-weight);
+    color: var(--fg-secondary);
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 /*-----SIMPLE-CTA-----*/
