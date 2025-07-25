@@ -74,4 +74,14 @@
     padding-bottom: 48px;
 }
 
+.connect-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    column-gap: 16px;
+    padding-top: 6px
+}
+
 /*-----BIBLIOGRAPHY-----*/
