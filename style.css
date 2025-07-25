@@ -235,7 +235,7 @@ body {
     align-items: center;
     border: 1px var(--midnight-800) solid;
     border-radius: var(--radius-md);
-    padding: var(--spacing-2xl) var(--spacing-2xl);
+    padding: var(--spacing-2xl);
     max-height: 196px;
 }
 
@@ -260,11 +260,13 @@ body {
 
 .feature-image-container {
     max-width: 100px;
+    max-height: 128px;
     padding-bottom: var(--spacing-2xl);
 }
 
 .feature-image {
     width: 100%;
+    height: 100%;
 }
 
 .feature-image-container-plus {
