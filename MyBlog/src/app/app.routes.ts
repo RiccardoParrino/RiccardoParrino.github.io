@@ -3,28 +3,38 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 export const routes: Routes = [
 
+    {   path: '',
+        redirectTo: 'home', 
+        pathMatch: 'full'
+    },
     {
-        path: 'Home',
+        path: 'home',
         component: HomeComponent,
         title: 'Home Page'
     },
     {
-        path: 'About',
+        path: 'about',
         component: AboutComponent,
         title: 'About Page'
     },
     {
-        path: 'Contact',
+        path: 'contact',
         component: ContactComponent,
         title: 'Contact Page'
     },
     {
-        path: 'Tutorials',
+        path: 'tutorials',
         component: TutorialsComponent,
         title: 'Tutorials page'
+    },
+    {
+        path: 'portfolio',
+        component: PortfolioComponent,
+        title: 'Portfolio page'
     }
 
 ];

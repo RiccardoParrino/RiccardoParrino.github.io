@@ -1,3 +1,34 @@
+  <mat-sidenav-container>
+    <mat-sidenav mode="side" opened autosize>
+    
+    <mat-nav-list>
 
+      <mat-list-item routerLink="home">
+        home
+      </mat-list-item>
 
-<router-outlet />
+      <mat-list-item routerLink="tutorials">
+        tutorials
+      </mat-list-item>
+
+      <mat-list-item routerLink="portfolio">
+        portfolio
+      </mat-list-item>
+
+      <mat-list-item routerLink="about">
+        about
+      </mat-list-item>
+
+      <mat-list-item routerLink="contact">
+        contact
+      </mat-list-item>
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+  
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
