@@ -15,20 +15,23 @@ mat-sidenav {
   'opsz' 24
 }
 
-mat-list-item {
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.item-container {
+.mat-sidenav-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.end-page {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+.mat-sidenav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    row-gap: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.mat-sidenav-item:hover {
+    color: black;
 }

@@ -1,52 +1,22 @@
-  <mat-sidenav-container autosize>
-    <mat-sidenav mode="side" opened>
-    
-    <mat-nav-list>
+<mat-sidenav-container autosize>
+  
+  <mat-sidenav mode="side" opened>
+    <div class="mat-sidenav-container">
+      <div class="mat-sidenav-item" routerLink="home">
+        <mat-icon mat-list-icon>home</mat-icon>
+        <span>Home</span>
+      </div>
 
-      <mat-list-item routerLink="home" class="item-content" style="margin-top:12px;">
-        <div class="item-container">
-          <mat-icon mat-list-icon>home</mat-icon>
-          <span>Home</span>
-        </div>
-      </mat-list-item>
+      <div class="mat-sidenav-item" routerLink="tutorials">
+        <mat-icon mat-list-icon>article</mat-icon>
+        <span>Tutorials</span>
+      </div>
 
-      <mat-list-item routerLink="tutorials" class="item-content">
-        <div class="item-container">
-          <mat-icon mat-list-icon>article</mat-icon>
-          <span>Tutorials</span>
-        </div>
-      </mat-list-item>
-
-      <mat-list-item routerLink="portfolio" class="item-content">
-        <div class="item-container">
-          <mat-icon mat-list-icon>cases</mat-icon>
-          <span>Portfolio</span>
-        </div>
-      </mat-list-item>
-
-      <mat-list-item routerLink="about" class="item-content">
-        <div class="item-container">
-          <mat-icon mat-list-icon>account_circle</mat-icon>
-          <span>About</span>
-        </div>
-      </mat-list-item>
-
-      <mat-list-item routerLink="contact">
-        <div class="item-container">
-          <mat-icon mat-list-icon>contact_page</mat-icon>
-          <span>Contact</span>
-        </div>
-      </mat-list-item>
-
-      <mat-list-item routerLink="contact" class="end-page">
-        <div class="item-container">
-          <mat-icon mat-list-icon>dark_mode</mat-icon>
-          <span>Color mode</span>
-        </div>
-      </mat-list-item>
-
-    </mat-nav-list>
-
+      <div class="mat-sidenav-item" routerLink="portfolio">
+        <mat-icon mat-list-icon>cases</mat-icon>
+        <span>Portfolio</span>
+      </div>
+    </div>
   </mat-sidenav>
   
   <mat-sidenav-content>
@@ -54,3 +24,50 @@
   </mat-sidenav-content>
 
 </mat-sidenav-container>
+
+
+<!--
+<mat-nav-list>
+  <mat-list-item routerLink="home" class="item-content" style="margin-top:12px;">
+    <div class="item-container">
+      <mat-icon mat-list-icon>home</mat-icon>
+      <span>Home</span>
+    </div>
+  </mat-list-item>
+
+  <mat-list-item routerLink="tutorials" class="item-content">
+    <div class="item-container">
+      <mat-icon mat-list-icon>article</mat-icon>
+      <span>Tutorials</span>
+    </div>
+  </mat-list-item>
+
+  <mat-list-item routerLink="portfolio" class="item-content">
+    <div class="item-container">
+      <mat-icon mat-list-icon>cases</mat-icon>
+      <span>Portfolio</span>
+    </div>
+  </mat-list-item>
+
+  <mat-list-item routerLink="about" class="item-content">
+    <div class="item-container">
+      <mat-icon mat-list-icon>account_circle</mat-icon>
+      <span>About</span>
+    </div>
+  </mat-list-item>
+
+  <mat-list-item routerLink="contact">
+    <div class="item-container">
+      <mat-icon mat-list-icon>contact_page</mat-icon>
+      <span>Contact</span>
+    </div>
+  </mat-list-item>
+
+  <mat-list-item routerLink="contact" class="end-page">
+    <div class="item-container">
+      <mat-icon mat-list-icon>dark_mode</mat-icon>
+      <span>Color mode</span>
+    </div>
+  </mat-list-item>
+</mat-nav-list>
+-->
