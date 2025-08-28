@@ -18,6 +18,16 @@ mat-sidenav {
 .mat-sidenav-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.mat-sidenav-upper-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-sidenav-lower-container {
 }
 
 .mat-sidenav-item {
@@ -30,8 +40,11 @@ mat-sidenav {
     row-gap: 8px;
     padding-right: 12px;
     padding-left: 12px;
+    transition: color .3s ease;
 }
 
 .mat-sidenav-item:hover {
     color: black;
+    cursor: pointer;
+    transition: color .3s ease;
 }
