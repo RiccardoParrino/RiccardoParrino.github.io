@@ -5,6 +5,8 @@ mat-sidenav-container {
 mat-sidenav {
     width: fit-content;
     background-color: white;
+    border-radius: 0px;
+    border: 1px black solid;
 }
 
 .material-symbols-outlined {
@@ -44,4 +46,8 @@ mat-sidenav {
     color: black;
     cursor: pointer;
     transition: color .3s ease;
+}
+
+mat-sidenav-content {
+    background-color: white;
 }
