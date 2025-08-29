@@ -27,17 +27,14 @@ mat-sidenav {
     flex-direction: column;
 }
 
-.mat-sidenav-lower-container {
-}
-
 .mat-sidenav-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    row-gap: 8px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    row-gap: 14px;
     padding-right: 12px;
     padding-left: 12px;
     transition: color .3s ease;
