@@ -6,7 +6,7 @@ mat-sidenav {
     width: fit-content;
     background-color: white;
     border-radius: 0px;
-    border: 1px black solid;
+    border: 1px var(--gray-lighter) solid;
 }
 
 .material-symbols-outlined {
@@ -39,11 +39,12 @@ mat-sidenav {
     row-gap: 14px;
     padding-right: 12px;
     padding-left: 12px;
+    color: var(--gray-medium);
     transition: color .3s ease;
 }
 
 .mat-sidenav-item:hover {
-    color: black;
+    color: var(--gray-dark);
     cursor: pointer;
     transition: color .3s ease;
 }

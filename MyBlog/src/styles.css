@@ -9,7 +9,12 @@
   --spaing-la: 24px;
   --spacing-xl: 32px;
 
-  
+  --gray-dark: #212529;
+  --gray-medium: #343a40;
+  --gray-light: #6c757d;
+  --gray-lighter: #adb5bd;
+
+  --background-gray-light: #e9ecef;
 }
 
 html, body { height: 100%; }
