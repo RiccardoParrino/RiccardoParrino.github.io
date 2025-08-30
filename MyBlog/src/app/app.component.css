@@ -2,6 +2,10 @@ mat-sidenav-container {
     height: 100vh;
 }
 
+.container {
+    height: 100%;
+}
+
 mat-sidenav {
     width: fit-content;
     background-color: white;
@@ -27,6 +31,7 @@ mat-sidenav {
 .mat-sidenav-upper-container {
     display: flex;
     flex-direction: column;
+    padding-top: 12px;
 }
 
 .mat-sidenav-item {
@@ -65,4 +70,8 @@ mat-sidenav-content {
 
 .active-sidenavbar-item {
   border-left: 3px solid black;
+}
+
+.mat-sidenav-lower-container {
+    padding-bottom: 12px;
 }
