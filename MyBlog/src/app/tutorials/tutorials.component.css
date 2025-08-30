@@ -36,6 +36,10 @@
   max-width: 300px;
 }
 
+.example-card:hover {
+    cursor: pointer;
+}
+
 .example-header-image {
   background-image: url('https://material.angular.dev/assets/img/examples/shiba1.jpg');
   background-size: cover;

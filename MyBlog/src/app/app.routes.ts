@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PostComponent } from './post/post.component';
 
 export const routes: Routes = [
 
@@ -35,6 +36,10 @@ export const routes: Routes = [
         path: 'portfolio',
         component: PortfolioComponent,
         title: 'Portfolio page'
+    },
+    {
+        path: 'tutorials/post/:id',
+        component: PostComponent
     }
 
 ];
