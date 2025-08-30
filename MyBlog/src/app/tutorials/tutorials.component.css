@@ -58,3 +58,8 @@
         column-gap: 24px;
     }   
 }
+
+a {
+    text-decoration: none;
+    color: var(--gray-medium);
+}
