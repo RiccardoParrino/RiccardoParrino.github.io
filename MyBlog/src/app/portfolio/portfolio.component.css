@@ -1,0 +1,42 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70vw;
+    padding-left: 32px;
+}
+
+.title-container {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.title-container h1 {
+    margin: 0px;
+    font-weight: 500;
+}
+
+.paragraph-container {
+    margin-bottom: 24px;
+}
+
+.paragraph-container p{
+    margin: 0px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.dev/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
