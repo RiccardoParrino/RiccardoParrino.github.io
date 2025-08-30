@@ -49,6 +49,15 @@ mat-sidenav {
     transition: color .3s ease;
 }
 
+.sidenavbar-img-container {
+    width: 64px;
+}
+
+.sidenavbar-img-container img {
+    border-radius: 50%;
+    width: 100%;
+}
+
 mat-sidenav-content {
     background-color: white;
 }
