@@ -40,3 +40,19 @@
   background-image: url('https://material.angular.dev/assets/img/examples/shiba1.jpg');
   background-size: cover;
 }
+
+mat-card-content h2 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+mat-card-content p {
+    padding-top: 0px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+mat-card img {
+    width: 400px;
+    padding: 12px;
+}
