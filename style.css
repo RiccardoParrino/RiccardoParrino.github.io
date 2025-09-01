@@ -73,6 +73,17 @@
 
     --green-spring: #80eb6e;
     --red-angular: #f44336;
+
+    --rainbow-color: conic-gradient (
+        #FF2E2E,
+        #FF831E,
+        #FCFF51,
+        #58FF57,
+        #575FFF,
+        #D257FF,
+        #FF57E5,
+        #FF1556
+    );
 }
 
 * {
@@ -101,6 +112,31 @@ body {
     border: 1px var(--midnight-800) solid;
     border-radius: var(--radius-md);
     transition: ease border 0.15s;
+}
+
+.anchor-rainbow {
+    background: conic-gradient(#FF2E2E,#FF831E,#FCFF51,#58FF57,#575FFF,#D257FF,#FF57E5,#FF1556);
+    text-decoration: none;
+    font-size: var(--text-body);
+    font-weight: var(--p-font-weight);
+    color: var(--fg-secondary);
+    border-radius: var(--radius-md);
+    transition: ease border 0.15s;
+    padding: 3px;
+    transition: transform 0.3s ease;
+}
+
+.anchor-rainbow-text {
+    text-decoration: none;
+    background-color: white;
+    border-radius: var(--radius-sm);
+    padding: 8px;
+    transition: transform 0.3s ease;
+}
+
+.anchor-rainbow:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 /*-----HORIZONTAL-RULE-----*/
@@ -161,7 +197,6 @@ body {
 }
 
 /*-----HERO-----*/
-.hero {}
 
 .hero-container {
     display: flex;
@@ -212,8 +247,6 @@ body {
 }
 
 /*-----FEATURE-----*/
-.feature{}
-
 .feature-section-container {
     display: flex;
     flex-direction: column;
@@ -289,8 +322,6 @@ body {
 }
 
 /*-----BLOG-----*/
-.blog{}
-
 .blog-section-container {
     display: flex;
     flex-direction: column;
@@ -415,8 +446,6 @@ body {
 }
 
 /*-----SUBMIT-BUTTON-----*/
-.submit-button-container {
-}
 
 .submit-button {
     font-size: var(--text-body);
@@ -435,7 +464,6 @@ body {
 }
 
 /*-----SIMPLE-CTA-----*/
-.simple-cta {}
 
 .simple-cta-container {
     display: flex;
