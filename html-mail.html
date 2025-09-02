@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="https://riccardoparrino.github.io/img/me.jpg">
+        <title>Riccardo Parrino's Blog</title>
+        <style>
+            /*****MAIN SECTION*****/
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-family: 'Roboto';
+                background:#f9fafb;
+                margin: 0;
+                padding: 0;
+            }
+
+            .main-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                row-gap: 18px;
+                background:#ffffff;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                max-width: 500px;
+                margin: 0px auto;
+                border-radius:12px;
+                overflow:hidden;
+                box-shadow:0 2px 6px rgba(0,0,0,0.1);
+                margin-top: 12px;
+            }
+
+            /*****TITLE SECTION*****/
+            .title-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .title-container img {
+                width: 128px;
+                border-radius: 50%;
+                margin-bottom: 8px;
+            }
+
+            .title-container h1 {
+            }
+
+            .title-container p {
+                color:#374151;
+            }
+
+            /*****DESCRIPTION SECTION******/
+            .description-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .description-container h2 {
+                font-size:20px; 
+                color:#111827;
+                margin-bottom: 8px;
+            }
+
+            .description-container p {
+                text-align: center;
+                text-justify: inter-word;
+                font-size:15px; 
+                line-height:1.5; 
+                color:#374151;
+                padding: 0px 16px;
+            }
+
+
+            /*****BUTTON SECTION*****/
+            .main-button-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .button-description {
+                font-size:15px; 
+                line-height:1.5; 
+                color:#374151;
+                margin-bottom: 8px;
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                column-gap: 12px;
+            }
+
+            .button-container a {
+                color: white;
+                background-color: blue;
+                text-decoration: none;
+                padding: 12px 20px;
+                border-radius: 6px;
+                transition: background-color ease 0.2s;
+            }
+
+            .button-container a:hover {
+                background-color: rgb(0, 0, 232);
+                transition: background-color ease 0.2s;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="main-container">
+            
+            <div class="title-container">
+                <img src="https://riccardoparrino.github.io/img/me.jpg" alt="">
+                <h1>Riccardo Parrino</h1>
+                <p class="stack-developer">Angular - Spring Developer</p>
+            </div>
+
+            <div class="description-container">
+                <h2>Ciao a tutti 👋</h2>
+                <p>
+                    Io sono <strong>Riccardo Parrino</strong>, sviluppatore backend con una laurea in Informatica presso l’Università di Palermo. Ho da subito iniziato a lavorare in <strong>Java - Spring</strong>, ma negli ultimi tempi mi sto avvicinando al mondo <strong>frontend</strong> con l’obiettivo di crescere come <strong>full‑stack developer</strong>.
+                </p>
+            </div>
+            
+            <div class="main-button-container">
+                <p class="button-description">
+                    Qui sotto trovate alcuni dei miei progetti più recenti:
+                </p>
+                <div class="button-container">
+                    <a href="https://riccardoparrino.github.io/cv/riccardo-parrino-cv-italian.pdf" target="_blank">Link to my CV</a>
+                    <a href="https://riccardoparrino.github.io" target="_blank">Link to my blog</a>
+                    <a href="https://github.com/RiccardoParrino" target="_blank">Link to my Repo</a>
+                </div>
+            </div>
+        
+        </div>
+
+
+    </body>
+</html>
